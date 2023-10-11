@@ -30,6 +30,8 @@ Bridgetown.configure do |config|
   #   inflect.acronym "RESTful"
   # end
 
+  init :"bridgetown-svg-inliner"
+
   # You can use `init` to initialize various Bridgetown features or plugin gems.
   # For example, you can use the Dotenv gem to load environment variables from
   # `.env`. Just `bundle add dotenv` and then uncomment this:

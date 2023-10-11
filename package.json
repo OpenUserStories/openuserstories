@@ -18,6 +18,7 @@
   },
   "dependencies": {
     "@github/relative-time-element": "^4.3.0",
+    "@tailwindcss/typography": "^0.5.10",
     "tailwindcss": "^3.3.3"
   }
 }
