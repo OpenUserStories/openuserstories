@@ -1,0 +1,12 @@
+<div class='text-gray-500 text-xs mb-2'>
+  <% if @authors.count > 1 %>
+    Authors
+  <% else %>
+    Author
+  <% end %>
+</div>
+<div class="relative flex items-center gap-x-4">
+  <% @authors.each do |a| %>
+    <%= render Shared::Author.new(a) %>
+  <% end %>
+</div>
