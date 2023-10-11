@@ -1,6 +1,6 @@
-# Bridgetown Website README
+# Open User Stories
 
-Welcome to your new Bridgetown website! You can update this README file to provide additional context and setup information for yourself or other contributors.
+This website is built with Bridgetown, a Ruby static site generator, and is hosted on Render.
 
 ## Table of Contents
 
@@ -52,15 +52,7 @@ bin/bridgetown console
 
 > Learn more: [Bridgetown CLI Documentation](https://www.bridgetownrb.com/docs/command-line-usage)
 
-## Deployment
-
-You can deploy Bridgetown sites on hosts like Render or Vercel as well as traditional web servers by simply building and copying the output folder to your HTML root.
-
-> Read the [Bridgetown Deployment Documentation](https://www.bridgetownrb.com/docs/deployment) for more information.
-
 ## Contributing
-
-If repo is on GitHub:
 
 1. Fork it
 2. Clone the fork using `git clone` to your local development machine.
@@ -68,3 +60,25 @@ If repo is on GitHub:
 4. Commit your changes (`git commit -am 'Add some feature'`)
 5. Push to the branch (`git push origin my-new-feature`)
 6. Create a new Pull Request
+
+# Licenses
+
+## Site Source Code
+
+Copyright 2023 Aaron Brethorst
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+   
+## Site Content (i.e. 'User Stories')
+
+All user stories are copyrighted by their author or authors, and are licensed under the Creative Commons 4.0 Attribution license. https://creativecommons.org/licenses/by/4.0
