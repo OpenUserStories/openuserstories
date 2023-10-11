@@ -6,7 +6,7 @@
   <body class="<%= data.layout %> <%= data.page_class %> class='min-h-full bg-gradient-to-b from-red-50/20 to-indigo-50/10">
     <%= render Shared::Navbar.new(metadata: site.metadata, resource: resource, tab: data.tab) %>
 
-    <main class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+    <main class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 mt-8">
       <%= yield %>
     </main>
 

@@ -2,37 +2,19 @@
 layout: default
 ---
 
-<div class="px-6 py-8 lg:px-8">
-  <div class="mx-auto max-w-3xl text-base leading-7 text-gray-700">
-    <%= render Shared::Datetime.new(data.date) %>
-    <% if data.updated && data.updated != data.date %>
-      <div class='text-gray-500'>
-        (Updated: <%= render Shared::Datetime.new(data.updated) %>)
-      </div>
-    <% end %>
+<%= render Stories::PublicationDate.new(data.date, data.updated) %>
 
-    <h1 class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl"><%= data.title %></h1>
+<div class='flex flex-col gap-y-2'>
+  <h1 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl"><%= data.title %></h1>
 
-    <p class="mt-2 text-xl leading-8"><%= data.summary %></p>
+  <p class="text-xl leading-8"><%= data.summary %></p>
 
-    <div class="grid grid-cols-2 gap-4">
-      <div class='pt-2'>
-        <%= render Stories::Authors.new(data.authors) %>
-        
-        <div class='text-gray-500 text-xs mt-4'>Categories</div>
-        <div class='flex gap-x-2 mt-2'>
-          <% data.categories.each do |c| %>
-            <div class='inline-block bg-gray-100 bg-gradient-to-b from-gray-50 to-gray-100 text-slate-900 border border-slate-100 text-xs font-semibold py-1 px-3 rounded-xl'><%= c %></div>
-          <% end %>
-        </div>
-      </div>
-      <div><%= render 'cc_by' %></div>
-    </div>
+  <%= render 'cc_by' %>
 
+  <%= render Stories::Authors.new(data.authors) %>
+  <%= render Stories::Categories.new(data.categories) %>
+</div>
 
-
-    <div class="mt-6">
-      <%= yield %>
-    </div>
-  </div>
+<div class="mt-6">
+  <%= yield %>
 </div>

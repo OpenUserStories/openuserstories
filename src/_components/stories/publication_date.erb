@@ -1,0 +1,8 @@
+<div>
+  <%= render Shared::Datetime.new(@created) %>
+  <% if @updated && @updated != @created %>
+    <div class='text-gray-500'>
+      (Updated: <%= render Shared::Datetime.new(@updated) %>)
+    </div>
+  <% end %>
+</div>
