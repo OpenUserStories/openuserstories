@@ -361,6 +361,11 @@
   resolved "https://registry.yarnpkg.com/@esbuild/win32-x64/-/win32-x64-0.19.4.tgz#d46a6e220a717f31f39ae80f49477cc3220be0f0"
   integrity sha512-HP0GDNla1T3ZL8Ko/SHAS2GgtjOg+VmWnnYLhuTksr++EnduYB0f3Y2LzHsUwb2iQ13JGoY6G3R8h6Du/WG6uA==
 
+"@github/relative-time-element@^4.3.0":
+  version "4.3.0"
+  resolved "https://registry.yarnpkg.com/@github/relative-time-element/-/relative-time-element-4.3.0.tgz#3cb90ffbbe9a82c7242bdd9d54f2d74d555547cf"
+  integrity sha512-+tFjX9//HRS1HnBa5cNgfEtE52arwiutYg1TOF+Trk40SPxst9Q8Rtc3BKD6aKsvfbtub68vfhipgchGjj9o7g==
+
 "@isaacs/cliui@^8.0.2":
   version "8.0.2"
   resolved "https://registry.yarnpkg.com/@isaacs/cliui/-/cliui-8.0.2.tgz#b37667b7bc181c168782259bab42474fbf52b550"

@@ -3,8 +3,8 @@
   <head>
     <%= render "head", metadata: site.metadata, title: data.title %>
   </head>
-  <body class="bg-red-100 <%= data.layout %> <%= data.page_class %>">
-    <%= render Shared::Navbar.new(metadata: site.metadata, resource: resource) %>
+  <body class="<%= data.layout %> <%= data.page_class %>">
+    <%= render Shared::Navbar.new(metadata: site.metadata, resource: resource, tab: data.tab) %>
 
     <main class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
       <%= yield %>

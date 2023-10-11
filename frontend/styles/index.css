@@ -4,4 +4,10 @@
 
 @tailwind base;
 @tailwind components;
+
+.link {
+  @apply text-blue-600;
+  @apply hover:underline;
+}
+
 @tailwind utilities;

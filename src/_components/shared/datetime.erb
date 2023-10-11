@@ -1,0 +1,8 @@
+<relative-time datetime="<%= @datetime.to_time.iso8601 %>"
+    format="datetime"
+    month="long"
+    day="numeric"
+    year="numeric"
+    class="text-gray-500">
+    <%= @datetime.strftime("%h %d, %Y %I:%M %p") %>
+</relative-time>

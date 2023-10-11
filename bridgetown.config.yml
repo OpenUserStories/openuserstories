@@ -22,6 +22,11 @@ url: "https://www.openuserstories.com"
 permalink: pretty
 template_engine: erb
 
+collections:
+  stories:
+    output: true
+    permalink: /stories/:slug/
+
 # Other options you might want to investigate:
 #
 # base_path: "/" # the subpath of your site, e.g. /blog. If you set this option,
