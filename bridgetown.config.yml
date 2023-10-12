@@ -25,6 +25,7 @@ template_engine: erb
 collections:
   stories:
     output: true
+    sort_direction: descending
     permalink: /stories/:slug/
 
 # Other options you might want to investigate:
