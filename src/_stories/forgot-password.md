@@ -35,3 +35,8 @@ authors:
 1. After successfully setting a new password, I should be automatically logged in and sent to the same page I see upon logging in normally.
 1. If the password reset link has expired or is invalid, I should receive an error message notifying me that the link has expired or is no longer valid.
 1. If the entered email address is not associated with a registered account, I should not receive any error message indicating that the account does not exist.
+
+## Related Stories
+
+* [Remember Me](/stories/remember-me)
+* [Web Login](/stories/web-login)

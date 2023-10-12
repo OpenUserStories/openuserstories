@@ -26,7 +26,6 @@ authors:
 1. On the login page, I should see two input fields: one for entering my email address and another for my password.
 1. As I type my email address, the system should provide real-time feedback to ensure it is in a valid email format.
 1. When I enter my password, it should be masked for security.
-1. I should have the option to click on a "Forgot Password" link if I need to reset my password.
 1. After entering my valid email address and password, I should be able to click a "Login" button.
 1. If my credentials are correct, I should be successfully logged in and redirected to my personalized dashboard or homepage.
 1. If my credentials are incorrect, I should receive a clear error message informing me that my login attempt has failed due to incorrect email or password.
@@ -34,3 +33,7 @@ authors:
 1. Upon successful login, I should have easy access to my profile, settings, and any personalized content or features associated with my account.
 1. The system should also provide a "Logout" option in a prominent location for when I want to log out of my account securely.
 
+## Related Stories
+
+* [Forgot Password](/stories/forgot-password)
+* [Remember Me](/stories/remember-me)
