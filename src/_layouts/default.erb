@@ -3,15 +3,21 @@
   <head>
     <%= render "head", metadata: site.metadata, title: data.title %>
   </head>
-  <body class="<%= data.layout %> <%= data.page_class %> min-h-full bg-gradient-to-b from-red-50/20 to-indigo-50/10">
+  <body class="min-h-full bg-gradient-to-b from-red-50/20 to-indigo-50/10">
     <%= render Shared::Navbar.new(metadata: site.metadata, resource: resource, tab: data.tab) %>
 
-    <main class="mx-auto max-w-prose my-8">
+    <% if data.layout == 'story' %>
+      <div style='background-image: url(https://images.unsplash.com/photo-<%= data.unsplash_id -%>?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=768)' class='md:bg-cover bg-center h-96'>
+      </div>
+    <% end %>
+    
+    <main class="mx-auto max-w-prose pt-4 pb-8">
       <%= yield %>
+      
+      <div class='mt-8'>
+        <%= render "footer", metadata: site.metadata %>
+      </div>
     </main>
 
-    <div class='mb-8'>
-      <%= render "footer", metadata: site.metadata %>
-    </div>
   </body>
 </html>
