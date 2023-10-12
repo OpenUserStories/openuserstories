@@ -7,11 +7,11 @@
     <%= render Shared::Navbar.new(metadata: site.metadata, resource: resource, tab: data.tab) %>
 
     <% if data.layout == 'story' %>
-      <div style='background-image: url(https://images.unsplash.com/photo-<%= data.unsplash_id -%>?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=768)' class='md:bg-cover bg-center h-96'>
+      <div style='background-image: url(https://images.unsplash.com/photo-<%= data.unsplash_id -%>?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=768)' class='hidden md:block md:bg-cover bg-center h-32 md:h-96'>
       </div>
     <% end %>
     
-    <main class="mx-auto max-w-prose pt-4 pb-8">
+    <main class="mx-auto max-w-prose pt-4 pb-8 px-4">
       <%= yield %>
       
       <div class='mt-8'>

@@ -6,6 +6,10 @@ layout: default
 
 <div class='flex flex-col gap-y-2'>
   <h1 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl"><%= data.title %></h1>
+  
+  <div class="block md:hidden">
+    <img src="https://images.unsplash.com/photo-<%= data.unsplash_id -%>?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800" alt="" class='block rounded-lg'>
+  </div>
 
   <div class="border-y border-gray-200">
     <dl class="sm:divide-y sm:divide-gray-200">
