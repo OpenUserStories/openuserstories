@@ -1,3 +1,4 @@
+<% page_width = data.layout == 'story' ? 'max-w-prose' : 'max-w-5xl' %>
 <!doctype html>
 <html lang="<%= site.locale %>" class='min-h-full'>
   <head>
@@ -16,7 +17,7 @@
       </div>
     <% end %>
 
-    <main class="mx-auto max-w-prose pt-4 pb-8 px-4 md:px-0">
+    <main class="mx-auto <%= page_width %> pt-4 pb-8 px-4 md:px-0">
       <%= yield %>
 
       <div class='mt-8'>

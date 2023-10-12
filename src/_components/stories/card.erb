@@ -10,7 +10,7 @@
     <div class="flex items-center gap-x-4 text-xs">
       <%= render Stories::PublicationDate.new(@story.data.date, @story.data.updated) %>
     </div>
-    <div class="relative max-w-xl">
+    <div class="relative">
       <h3 class="mt-1 text-lg font-semibold leading-6 text-gray-900">
         <%= link_to @story do %>
           <%= @story.data.title %>
