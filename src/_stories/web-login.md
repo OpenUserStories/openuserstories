@@ -6,19 +6,18 @@ updated:   2023-10-08 23:57:00 -0700
 categories: login web authentication security
 tab: stories
 summary: A user story that describes how to build a web login experience for a SaaS product.
-unsplash_id: 1618044619888-009e412ff12a
+story:
+  as_a: registered user
+  i_want_to: easily and securely log in to my account
+  so_that_i_can: access my personalized content and account settings
+unsplash_id: 1486312338219-ce68d2c6f44d
+unsplash_credit: |
+  Photo by <a href="https://unsplash.com/@glenncarstenspeters?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Glenn Carstens-Peters</a> on <a href="https://unsplash.com/photos/npxXWgQ33ZQ?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 authors:
   - name: Aaron Brethorst
     email: aaron@brethorsting.com
   
 ---
-
-
-As a **registered user**,
-
-I want to **easily and securely log in to my account**,
-
-So that I can **access my personalized content and account settings.**
 
 ## Acceptance Criteria:
 
