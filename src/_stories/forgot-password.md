@@ -38,5 +38,6 @@ authors:
 
 ## Related Stories
 
+* [Email Account Changes](/stories/email-account-changes)
 * [Remember Me](/stories/remember-me)
 * [Web Login](/stories/web-login)
