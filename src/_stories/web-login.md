@@ -10,9 +10,9 @@ story:
   as_a: registered user
   i_want_to: easily and securely log in to my account
   so_that_i_can: access my personalized content and account settings
-unsplash_id: 1486312338219-ce68d2c6f44d
-unsplash_credit: |
-  Photo by <a href="https://unsplash.com/@glenncarstenspeters?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Glenn Carstens-Peters</a> on <a href="https://unsplash.com/photos/npxXWgQ33ZQ?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+image:
+  full: /images/stories/web-login.jpg
+  thumb: /images/stories/web-login__thumb.jpg
 authors:
   - name: Aaron Brethorst
     email: aaron@brethorsting.com

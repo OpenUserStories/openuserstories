@@ -10,9 +10,9 @@ story:
   as_a: registered user
   i_want_to: stay logged in
   so_that_i_can: access the site without entering my credentials every time
-unsplash_id: 1543270123-5b5c73132cdf
-unsplash_credit: |
-  Photo by <a href="https://unsplash.com/@brookecagle?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Brooke Cagle</a> on <a href="https://unsplash.com/photos/YpefHkUc8BQ?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+image:
+  full: /images/stories/remember-me.jpg
+  thumb: /images/stories/remember-me__thumb.jpg
 authors:
   - name: Aaron Brethorst
     email: aaron@brethorsting.com

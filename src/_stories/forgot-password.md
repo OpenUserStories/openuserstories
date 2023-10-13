@@ -10,9 +10,9 @@ story:
   as_a: registered user
   i_want_to: easily reset my password
   so_that_i_can: access my account again
-unsplash_id: 1635237393049-55046279ebb8
-unsplash_credit: |
-  Photo by <a href="https://unsplash.com/@moneyphotos?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">rc.xyz NFT gallery</a> on <a href="https://unsplash.com/photos/q7h8LVeUgFU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+image:
+  full: /images/stories/forgot-password.jpg
+  thumb: /images/stories/forgot-password__thumb.jpg
 authors:
   - name: Aaron Brethorst
     email: aaron@brethorsting.com
