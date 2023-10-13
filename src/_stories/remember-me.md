@@ -5,7 +5,7 @@ date:   2023-10-12 00:51:00 -0700
 updated:   2023-10-12 00:51:00 -0700
 categories: login web authentication security password
 tab: stories
-summary: A user story that describes how to build a 'Remember Me' checkbox feature on a login page.
+summary: Build a 'Remember Me' checkbox feature on a login page.
 story:
   as_a: registered user
   i_want_to: stay logged in

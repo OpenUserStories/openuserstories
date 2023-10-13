@@ -5,7 +5,7 @@ date:   2023-10-12 20:00:00 -0700
 updated:   2023-10-12 20:00:00 -0700
 categories: authentication security password email
 tab: stories
-summary: A user story that describes emailing an end user when their account experienes significant changes in order to protect their security.
+summary: Email an end user when their account experiences significant changes in order to protect their security.
 story:
   as_a: security-conscious user
   i_want_to: receive an email confirmation when I make any significant account-related changes

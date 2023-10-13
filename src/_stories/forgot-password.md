@@ -5,7 +5,7 @@ date:   2023-10-11 23:42:00 -0700
 updated:   2023-10-11 23:42:00 -0700
 categories: login web authentication security password
 tab: stories
-summary: A user story that describes how to build a Forgot Password/Reset Password experience for a SaaS product.
+summary: Build a Forgot Password/Reset Password experience for a SaaS product.
 story:
   as_a: registered user
   i_want_to: easily reset my password
